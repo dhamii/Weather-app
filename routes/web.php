@@ -8,5 +8,5 @@ Route::get('/', function () {
 });
 
 
-Route::get('/view', [WeatherController::class, 'view']);
+Route::get('/', [WeatherController::class, 'view']);
 Route::post('/fetch', [WeatherController::class, 'fetch']);
